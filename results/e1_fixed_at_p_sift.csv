@@ -1,0 +1,3 @@
+dataset,nb,ef,avg_ndc,median_ndc,p95_ndc,hit_rate,mean_recall,ms_per_query,note
+sift,200000,151,2253.275,2359.5,2860.1,0.929,0.9826699495315552,3.8835325241088867,fixed-ef tuned so 95% of queries reach 0.95
+sift,full,248,3951.676,4162.5,4979.25,0.943,0.9853900074958801,5.853247404098511,fixed-ef tuned so 95% of queries reach 0.95

@@ -1,0 +1,2 @@
+dataset,nb,ef,avg_ndc,median_ndc,p95_ndc,hit_rate,mean_recall,ms_per_query,note
+deep,1000000,374,5068.827,5183.0,7246.1,0.952,0.9894999861717224,9.288726806640625,fixed-ef tuned so 95% of queries reach 0.95

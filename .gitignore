@@ -1,0 +1,27 @@
+# --- large / generated artifacts (never commit) ---
+data/
+cache/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# third-party paper code (see README for upstream links)
+code/
+
+# extracted paper text (copyright) and prototype artifacts
+annie.txt
+darth.txt
+sigma.txt
+proto_graph.npz
+
+# fresh figure/result runs can be regenerated; keep the committed ones
+results/*smoke*
+figures/*smoke*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
