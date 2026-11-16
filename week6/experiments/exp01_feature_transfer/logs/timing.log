@@ -1,0 +1,7 @@
+[graph] loaded cache gist_idx992000_n992000_M16_efc200_graph.npz
+[18:07:35] L0: 34.02 ms/query
+[18:07:36] L1: 29.25 ms/query
+[18:07:37] L2: 32.57 ms/query
+[18:07:39] D0: 65.74 ms/query
+[18:07:44] D1: 182.70 ms/query
+[18:07:50] D2: 183.54 ms/query

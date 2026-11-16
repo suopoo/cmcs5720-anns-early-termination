@@ -1,0 +1,36 @@
+[13:59:14] load base
+[13:59:16] base (992000, 960)
+[graph] loaded cache gist_idx992000_n992000_M16_efc200_graph.npz
+[13:59:17] graph degree0=32 max_level=4
+[13:59:17] homing w=10 k'=10
+[13:59:17] collect gist_k100_unlim_train_pilot
+[13:59:30]   gist_k100_unlim_train_pilot 50/300 steps=0 13s
+[13:59:47]   gist_k100_unlim_train_pilot 100/300 steps=0 30s
+[14:00:03]   gist_k100_unlim_train_pilot 150/300 steps=0 46s
+[14:00:17]   gist_k100_unlim_train_pilot 200/300 steps=0 59s
+[14:00:34]   gist_k100_unlim_train_pilot 250/300 steps=0 76s
+[14:00:52]   gist_k100_unlim_train_pilot 300/300 steps=0 95s
+[14:00:52] saved gist_k100_unlim_train_pilot (0.0MB)
+[14:00:52] collect gist_k100_unlim_val_pilot
+[14:01:13]   gist_k100_unlim_val_pilot 50/50 steps=127,580 20s
+[14:01:13] saved gist_k100_unlim_val_pilot (0.3MB)
+[14:01:13] collect gist_k100_unlim_test_pilot
+[14:01:25]   gist_k100_unlim_test_pilot 50/100 steps=77,738 13s
+[14:01:38]   gist_k100_unlim_test_pilot 100/100 steps=154,313 25s
+[14:01:38] saved gist_k100_unlim_test_pilot (0.4MB)
+[14:01:38] collect gist_k100_darth_train_pilot
+[14:02:34]   gist_k100_darth_train_pilot 50/300 steps=0 obs=55,031 tr=0 56s
+[14:03:35]   gist_k100_darth_train_pilot 100/300 steps=0 obs=112,827 tr=0 117s
+[14:04:38]   gist_k100_darth_train_pilot 150/300 steps=0 obs=174,643 tr=0 180s
+[14:05:40]   gist_k100_darth_train_pilot 200/300 steps=0 obs=234,719 tr=0 242s
+[14:06:43]   gist_k100_darth_train_pilot 250/300 steps=0 obs=295,552 tr=0 305s
+[14:07:46]   gist_k100_darth_train_pilot 300/300 steps=0 obs=358,038 tr=0 368s
+[14:07:47] saved gist_k100_darth_train_pilot (4.1MB)
+[14:07:47] collect gist_k100_darth_val_pilot
+[14:10:40]   gist_k100_darth_val_pilot 50/50 steps=204,804 obs=66,081 tr=0 173s
+[14:10:41] saved gist_k100_darth_val_pilot (2.7MB)
+[14:10:41] collect gist_k100_darth_test_pilot
+[14:13:28]   gist_k100_darth_test_pilot 50/100 steps=204,805 obs=57,825 tr=0 168s
+[14:16:20]   gist_k100_darth_test_pilot 100/100 steps=409,613 obs=120,067 tr=0 339s
+[14:16:21] saved gist_k100_darth_test_pilot (5.1MB)
+[14:16:21] done

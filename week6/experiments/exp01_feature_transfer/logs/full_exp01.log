@@ -1,0 +1,38 @@
+[17:20:44] load traces
+[17:20:45] train L0
+[17:20:45]   usable train rows 4880/5000 dim=965
+[17:20:49]   L0: hit=0.499 ndc=4073 mult=5.07
+[17:20:49] train L1
+[17:20:49]   usable train rows 4880/5000 dim=990
+[17:20:54]   L1: hit=0.465 ndc=3798 mult=4.57
+[17:20:54] train L2
+[17:20:54]   usable train rows 4880/5000 dim=987
+[17:21:00]   L2: hit=0.468 ndc=3792 mult=4.57
+[17:21:00] train D0
+[17:21:00]   usable train rows 64783/64783 dim=11
+[17:21:02]   D0: hit=0.537 ndc=5013 calls=8.6
+[17:21:02] train D1
+[17:21:03]   usable train rows 64783/64783 dim=987
+[17:21:26]   D1: hit=0.515 ndc=5085 calls=8.2
+[17:21:26] train D2
+[17:21:26]   usable train rows 64783/64783 dim=987
+[17:21:54]   D2: hit=0.515 ndc=5085 calls=8.2
+[17:21:54] train D0-original (observations from 0, adaptive interval)
+[17:22:28]   D0-original: hit=0.546 ndc=4632 calls=8.5
+[17:23:00] sensitivity LAET L0 f=256
+[17:23:06]   hit=0.500 ndc=4052
+[17:23:06] sensitivity LAET L0 f=512
+[17:23:11]   hit=0.479 ndc=4142
+[17:23:11] sensitivity LAET L0 f=1260
+[17:23:17]   hit=0.499 ndc=4073
+[17:23:17] sensitivity LAET L0 f=2048
+[17:23:23]   hit=0.496 ndc=3891
+[17:23:23] sensitivity DARTH D0 f=256
+[17:23:25]   hit=0.530 ndc=5206
+[17:23:25] sensitivity DARTH D0 f=512
+[17:23:26]   hit=0.535 ndc=5167
+[17:23:26] sensitivity DARTH D0 f=1260
+[17:23:28]   hit=0.546 ndc=5293
+[17:23:28] sensitivity DARTH D0 f=2048
+[17:23:29]   hit=0.563 ndc=5533
+[17:23:29] done; summary saved

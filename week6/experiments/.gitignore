@@ -1,0 +1,5 @@
+shared/cache/gist_base992000.npy
+shared/cache/*.hnsw
+shared/cache/*.tmp.npz
+__pycache__/
+*.pyc

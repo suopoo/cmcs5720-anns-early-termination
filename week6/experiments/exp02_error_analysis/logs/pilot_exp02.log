@@ -1,0 +1,11 @@
+[14:16:41] load k=100 traces
+[14:16:41] train LAET
+[14:16:41]   rows=286
+[14:16:41]   mult=22.056 hit=0.810
+[14:16:41] train DARTH
+[14:16:41]   rows=358038 ipi=4699 mpi=940
+[14:16:41]   hit=0.750 calls=5.9
+[14:16:41] train ANNiE-S
+[14:16:42]   rows=296
+[14:16:42]   hit=0.850
+[14:16:42] main phase done

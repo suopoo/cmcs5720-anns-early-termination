@@ -1,0 +1,25 @@
+[data] base=(992000, 960) test=(1000, 960) train_pool=(7000, 960) val=(500, 960)
+[mem] after load, before GT: availPhys=2.97GB availPage=5.23GB
+[gt] computing test (1000, 960)
+  gt 64/1000  4.3s
+  gt 704/1000  39.9s
+[gt] saved D:\大学\CUCS\CMCS5720\week6\shared\ground_truth\gist_test_k100.npy
+[gt] computing train (7000, 960)
+  gt 64/7000  3.7s
+  gt 704/7000  39.9s
+  gt 1344/7000  78.5s
+  gt 1984/7000  119.0s
+  gt 2624/7000  156.2s
+  gt 3264/7000  194.4s
+  gt 3904/7000  233.6s
+  gt 4544/7000  268.5s
+  gt 5184/7000  306.1s
+  gt 5824/7000  347.1s
+  gt 6464/7000  385.8s
+[gt] saved D:\大学\CUCS\CMCS5720\week6\shared\ground_truth\gist_train_k100.npy
+[gt] computing val (500, 960)
+  gt 64/500  3.8s
+[gt] saved D:\大学\CUCS\CMCS5720\week6\shared\ground_truth\gist_val_k100.npy
+[gt] splits saved
+[data] base=(992000, 960) test=(1000, 960) train_pool=(7000, 960) val=(500, 960)
+[mem] before graph build: availPhys=5.74GB availPage=5.24GB

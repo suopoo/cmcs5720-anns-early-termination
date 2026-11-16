@@ -1,0 +1,36 @@
+experiment: exp03_asymmetric_loss
+dataset: GIST1M
+k: 10
+target_recall: 0.9
+checkpoint: 1260
+train_queries: 5000
+val_queries: 500
+test_queries: 1000
+seed: 42
+laet_losses:
+- group: L0
+  tau: null
+- group: L1
+  tau: 0.5
+- group: L2
+  tau: 0.75
+- group: L3
+  tau: 0.9
+- group: L4
+  tau: 0.95
+darth_losses:
+- group: D0
+  tau: null
+- group: D1
+  tau: 0.5
+- group: D2
+  tau: 0.25
+- group: D3
+  tau: 0.1
+- group: D4
+  tau: 0.05
+ipi: 1532.7012393336042
+mpi: 306.54024786672085
+fixed_multiplier: 5.07201620474904
+selected_laet: L1
+selected_darth: D2

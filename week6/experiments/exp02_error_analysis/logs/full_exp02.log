@@ -1,0 +1,26 @@
+[17:21:52] load k=100 traces
+[17:21:52] train LAET
+[17:22:00]   rows=1946
+[17:22:01]   mult=17.878 hit=0.676
+[17:22:01] train DARTH
+[17:22:15]   rows=1411660 ipi=4383 mpi=877
+[17:22:28]   hit=0.644 calls=8.5
+[17:22:28] train ANNiE-S
+[17:22:44]   rows=1971
+[17:22:44]   hit=0.838
+[17:22:52] main phase done
+[17:22:52] load traces for size sweep
+[17:22:54] size=500 seed=42
+Traceback (most recent call last):
+  File "D:\大学\CUCS\CMCS5720\week6\experiments\common\exp02_run.py", line 548, in <module>
+    phase_size(a)
+    ~~~~~~~~~~^^^
+  File "D:\大学\CUCS\CMCS5720\week6\experiments\common\exp02_run.py", line 441, in phase_size
+    lm, lpm, _ = train_laet(utr_tr, qtr, idx, seed)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\大学\CUCS\CMCS5720\week6\experiments\common\exp02_run.py", line 89, in train_laet
+    X = laet_X(ltr, qtr[idx])
+  File "D:\大学\CUCS\CMCS5720\week6\experiments\common\exp02_run.py", line 75, in laet_X
+    return np.concatenate([q, tr[f"tail_f{f}"]], axis=1)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 0, the array at index 0 has size 500 and the array at index 1 has size 2000

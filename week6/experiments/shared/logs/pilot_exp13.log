@@ -1,0 +1,35 @@
+[13:40:29] load base
+[13:40:30] base (992000, 960)
+[graph] loaded cache gist_idx992000_n992000_M16_efc200_graph.npz
+[13:40:31] graph degree0=32 max_level=4
+[13:40:31] collect gist_k10_laet_train_pilot
+[13:40:37]   gist_k10_laet_train_pilot 50/300 steps=0 6s
+[13:40:39]   gist_k10_laet_train_pilot 100/300 steps=0 8s
+[13:40:42]   gist_k10_laet_train_pilot 150/300 steps=0 11s
+[13:40:44]   gist_k10_laet_train_pilot 200/300 steps=0 13s
+[13:40:45]   gist_k10_laet_train_pilot 250/300 steps=0 15s
+[13:40:49]   gist_k10_laet_train_pilot 300/300 steps=0 18s
+[13:40:49] saved gist_k10_laet_train_pilot (0.1MB)
+[13:40:49] collect gist_k10_laet_val_pilot
+[13:40:57]   gist_k10_laet_val_pilot 50/50 steps=47,235 8s
+[13:40:57] saved gist_k10_laet_val_pilot (0.1MB)
+[13:40:57] collect gist_k10_laet_test_pilot
+[13:41:01]   gist_k10_laet_test_pilot 50/100 steps=23,293 4s
+[13:41:05]   gist_k10_laet_test_pilot 100/100 steps=49,752 8s
+[13:41:05] saved gist_k10_laet_test_pilot (0.1MB)
+[13:41:05] collect gist_k10_darth_train_pilot
+[13:41:44]   gist_k10_darth_train_pilot 50/300 steps=0 obs=32,269 tr=1,308 39s
+[13:42:24]   gist_k10_darth_train_pilot 100/300 steps=0 obs=66,039 tr=2,648 79s
+[13:43:05]   gist_k10_darth_train_pilot 150/300 steps=0 obs=102,029 tr=3,993 120s
+[13:43:47]   gist_k10_darth_train_pilot 200/300 steps=0 obs=137,218 tr=5,343 162s
+[13:44:30]   gist_k10_darth_train_pilot 250/300 steps=0 obs=173,055 tr=6,692 205s
+[13:45:13]   gist_k10_darth_train_pilot 300/300 steps=0 obs=209,647 tr=8,042 248s
+[13:45:14] saved gist_k10_darth_train_pilot (2.5MB)
+[13:45:14] collect gist_k10_darth_val_pilot
+[13:46:50]   gist_k10_darth_val_pilot 50/50 steps=102,410 obs=38,396 tr=1,350 96s
+[13:46:50] saved gist_k10_darth_val_pilot (1.4MB)
+[13:46:50] collect gist_k10_darth_test_pilot
+[13:48:21]   gist_k10_darth_test_pilot 50/100 steps=102,412 obs=33,731 tr=1,340 91s
+[13:49:55]   gist_k10_darth_test_pilot 100/100 steps=204,821 obs=69,730 tr=2,690 185s
+[13:49:56] saved gist_k10_darth_test_pilot (2.6MB)
+[13:49:56] done

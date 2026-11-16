@@ -1,0 +1,15 @@
+[graph] loaded cache gist_idx992000_n992000_M16_efc200_graph.npz
+[16:04:29]   gist_k10_laet_val 50/500 steps=47,355 6s
+[16:04:31]   gist_k10_laet_val 100/500 steps=65,020 8s
+[16:04:36]   gist_k10_laet_val 150/500 steps=103,155 13s
+[16:04:41]   gist_k10_laet_val 200/500 steps=152,188 19s
+[16:04:45]   gist_k10_laet_val 250/500 steps=178,405 22s
+[16:04:50]   gist_k10_laet_val 300/500 steps=223,080 27s
+[16:04:55]   gist_k10_laet_val 350/500 steps=267,170 32s
+[16:04:58]   gist_k10_laet_val 400/500 steps=294,910 35s
+[16:05:03]   gist_k10_laet_val 450/500 steps=339,877 40s
+[16:05:05]   gist_k10_laet_val 500/500 steps=363,288 43s
+saved D:\大学\CUCS\CMCS5720\week6\experiments\shared\traces\gist_k10_laet_val.npz 0.911035 MB
+[16:05:45]   gist_k10_laet_test 500/1000 steps=322,961 39s
+[16:06:26]   gist_k10_laet_test 1000/1000 steps=651,367 80s
+saved D:\大学\CUCS\CMCS5720\week6\experiments\shared\traces\gist_k10_laet_test.npz 1.663649 MB

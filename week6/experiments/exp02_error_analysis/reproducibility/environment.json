@@ -1,0 +1,11 @@
+{
+  "python": "3.14.7",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "lightgbm": "4.7.0",
+  "dataset": "GIST1M gist.hdf5",
+  "index_vectors": 992000,
+  "index": "hnswlib M=16 efConstruction=200",
+  "device": "CPU only"
+}

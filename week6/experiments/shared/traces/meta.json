@@ -1,0 +1,38 @@
+{
+  "ef99_k10_pilot": {
+    "ef": 2048,
+    "val_mean_recall": 0.9819999933242798,
+    "tuned_on": 50,
+    "seconds": 36.83914136886597
+  },
+  "ef99_k100_pilot": {
+    "ef": 4096,
+    "val_mean_recall": 0.9847999811172485,
+    "tuned_on": 50,
+    "seconds": 69.24544405937195
+  },
+  "homing_pilot": {
+    "w": 10,
+    "kp": 10,
+    "mean_homing_fraction": 0.2195698767900467,
+    "seconds": 21.384073495864868
+  },
+  "ef99_k10": {
+    "ef": 2048,
+    "val_mean_recall": 0.9861999750137329,
+    "tuned_on": 200,
+    "seconds": 209.52657628059387
+  },
+  "ef99_k100": {
+    "ef": 2048,
+    "val_mean_recall": 0.9799799919128418,
+    "tuned_on": 100,
+    "seconds": 116.46426773071289
+  },
+  "homing": {
+    "w": 10,
+    "kp": 10,
+    "mean_homing_fraction": 0.2195698767900467,
+    "seconds": 15.850884914398193
+  }
+}

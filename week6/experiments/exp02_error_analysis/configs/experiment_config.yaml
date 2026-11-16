@@ -1,0 +1,24 @@
+experiment: exp02_error_analysis
+dataset: GIST1M
+k: 100
+target_recall: 0.95
+rtg_p: 0.95
+n_train: 2000
+n_val: 500
+n_test: 1000
+laet:
+  f: 1260
+  mult: 17.87841382580557
+  pred_max: 34451.99609375
+darth:
+  ipi: 4383.183540877098
+  mpi: 876.6367081754195
+  ef: 2048
+  ef_validation_recall: 0.9855
+annie:
+  homing: calibrated
+  p: 0.95
+oracle:
+  LAET: unlimited beam
+  ANNiE: unlimited beam
+  DARTH: ef=2048 bounded (validation mean recall@100 0.9855)

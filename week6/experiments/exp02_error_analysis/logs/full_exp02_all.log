@@ -1,0 +1,28 @@
+[17:23:57] load k=100 traces
+[17:23:57] train LAET
+[17:23:59]   rows=1946
+[17:24:00]   mult=17.878 hit=0.676
+[17:24:00] train DARTH
+[17:24:04]   rows=1411660 ipi=4383 mpi=877
+[17:24:12]   hit=0.644 calls=8.5
+[17:24:12] train ANNiE-S
+[17:24:16]   rows=1971
+[17:24:16]   hit=0.838
+[17:24:21] main phase done
+[17:24:21] load traces for size sweep
+[17:24:23] size=500 seed=42
+[17:24:37] size=500 seed=43
+[17:24:50] size=500 seed=44
+[17:25:04] size=1000 seed=42
+[17:25:22] size=1000 seed=43
+[17:25:47] size=1000 seed=44
+[17:26:23] size=2000 seed=42
+[17:27:08] size=2000 seed=43
+[17:27:57] size=2000 seed=44
+[17:28:50] distribution experiment (hard-query enriched)
+[17:28:52]   D0_in_distribution
+[17:29:39]   D2_hard_enriched
+[17:30:25] recall-target sensitivity
+[17:30:44]   rt=0.9
+[17:31:12]   rt=0.95
+[17:31:40]   rt=0.99

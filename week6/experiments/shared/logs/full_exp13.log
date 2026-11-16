@@ -1,0 +1,69 @@
+[14:16:55] load base
+[14:16:56] base (992000, 960)
+[graph] loaded cache gist_idx992000_n992000_M16_efc200_graph.npz
+[14:16:56] graph degree0=32 max_level=4
+    [tune] ef=32 mean_recall=0.6195
+    [tune] ef=64 mean_recall=0.7530
+    [tune] ef=128 mean_recall=0.8510
+    [tune] ef=256 mean_recall=0.9170
+    [tune] ef=512 mean_recall=0.9530
+    [tune] ef=1024 mean_recall=0.9755
+    [tune] ef=2048 mean_recall=0.9855
+[14:20:26] tuned ef99_k10: ef=2048 val_recall=0.9862 (210s)
+[14:20:26] collect gist_k10_laet_train
+[14:20:54]   gist_k10_laet_train 500/5000 steps=0 29s
+[14:21:15]   gist_k10_laet_train 1000/5000 steps=0 49s
+[14:21:44]   gist_k10_laet_train 1500/5000 steps=0 78s
+[14:22:06]   gist_k10_laet_train 2000/5000 steps=0 100s
+[14:22:29]   gist_k10_laet_train 2500/5000 steps=0 123s
+[14:22:54]   gist_k10_laet_train 3000/5000 steps=0 149s
+[14:23:18]   gist_k10_laet_train 3500/5000 steps=0 173s
+[14:23:42]   gist_k10_laet_train 4000/5000 steps=0 196s
+[14:24:05]   gist_k10_laet_train 4500/5000 steps=0 219s
+[14:24:30]   gist_k10_laet_train 5000/5000 steps=0 244s
+[14:24:30] saved gist_k10_laet_train (1.0MB)
+[14:24:30] collect gist_k10_laet_val
+[14:24:38]   gist_k10_laet_val 50/500 steps=47,235 8s
+[14:24:41]   gist_k10_laet_val 100/500 steps=64,042 11s
+[14:24:47]   gist_k10_laet_val 150/500 steps=101,559 17s
+[14:24:55]   gist_k10_laet_val 200/500 steps=150,435 24s
+[14:24:59]   gist_k10_laet_val 250/500 steps=176,167 29s
+[14:25:06]   gist_k10_laet_val 300/500 steps=220,326 36s
+[14:25:13]   gist_k10_laet_val 350/500 steps=264,195 43s
+[14:25:18]   gist_k10_laet_val 400/500 steps=291,688 47s
+[14:25:24]   gist_k10_laet_val 450/500 steps=336,405 54s
+[14:25:28]   gist_k10_laet_val 500/500 steps=359,367 58s
+[14:25:28] saved gist_k10_laet_val (0.9MB)
+[14:25:28] collect gist_k10_laet_test
+[14:26:21]   gist_k10_laet_test 500/1000 steps=318,666 53s
+[14:27:16]   gist_k10_laet_test 1000/1000 steps=642,016 107s
+[14:27:16] saved gist_k10_laet_test (1.6MB)
+[14:27:16] collect gist_k10_darth_train
+[14:34:05]   gist_k10_darth_train 500/5000 steps=0 obs=349,007 tr=13,404 409s
+[14:40:51]   gist_k10_darth_train 1000/5000 steps=0 obs=692,070 tr=26,668 815s
+[14:47:38]   gist_k10_darth_train 1500/5000 steps=0 obs=1,039,390 tr=40,043 1222s
+[14:54:47]   gist_k10_darth_train 2000/5000 steps=0 obs=1,411,660 tr=53,430 1651s
+[15:01:26]   gist_k10_darth_train 2500/5000 steps=0 obs=1,750,600 tr=66,640 2050s
+[15:08:12]   gist_k10_darth_train 3000/5000 steps=0 obs=2,092,586 tr=80,027 2456s
+[15:15:16]   gist_k10_darth_train 3500/5000 steps=0 obs=2,462,267 tr=93,454 2880s
+[15:22:10]   gist_k10_darth_train 4000/5000 steps=0 obs=2,811,217 tr=106,748 3294s
+[15:27:01]   gist_k10_darth_train 4500/5000 steps=0 obs=3,146,892 tr=120,039 3585s
+[15:31:46]   gist_k10_darth_train 5000/5000 steps=0 obs=3,499,776 tr=133,416 3870s
+[15:31:54] saved gist_k10_darth_train (41.9MB)
+[15:31:54] collect gist_k10_darth_val
+[15:32:52]   gist_k10_darth_val 50/500 steps=102,410 obs=38,396 tr=1,350 58s
+[15:33:50]   gist_k10_darth_val 100/500 steps=204,819 obs=72,454 tr=2,688 116s
+[15:34:47]   gist_k10_darth_val 150/500 steps=307,224 obs=106,324 tr=4,020 173s
+[15:35:46]   gist_k10_darth_val 200/500 steps=409,639 obs=143,222 tr=5,370 232s
+[15:36:43]   gist_k10_darth_val 250/500 steps=512,057 obs=178,126 tr=6,715 289s
+[15:37:41]   gist_k10_darth_val 300/500 steps=614,467 obs=212,841 tr=8,059 347s
+[15:38:39]   gist_k10_darth_val 350/500 steps=716,883 obs=249,358 tr=9,409 405s
+[15:39:37]   gist_k10_darth_val 400/500 steps=819,293 obs=285,983 tr=10,756 463s
+[15:40:34]   gist_k10_darth_val 450/500 steps=921,703 obs=319,744 tr=12,078 520s
+[15:41:32]   gist_k10_darth_val 500/500 steps=1,024,109 obs=352,967 tr=13,417 578s
+[15:41:35] saved gist_k10_darth_val (13.3MB)
+[15:41:35] collect gist_k10_darth_test
+[15:51:38]   gist_k10_darth_test 500/1000 steps=1,024,146 obs=364,027 tr=13,450 602s
+[16:02:42]   gist_k10_darth_test 1000/1000 steps=2,048,255 obs=732,717 tr=26,854 1267s
+[16:02:48] saved gist_k10_darth_test (27.0MB)
+[16:02:48] done

@@ -1,0 +1,37 @@
+{
+  "experiment": "exp01_feature_transfer",
+  "dataset": "GIST1M",
+  "index": {
+    "n": 992000,
+    "M": 16,
+    "efConstruction": 200,
+    "cache": "gist_idx992000_n992000_M16_efc200_graph.npz"
+  },
+  "k": 10,
+  "target_recall": 0.9,
+  "checkpoint_ndc": 1260,
+  "train_queries": 5000,
+  "val_queries": 500,
+  "test_queries": 1000,
+  "seed": 42,
+  "laet": {
+    "loss": "L2 on log2(C1)",
+    "n_estimators": 100,
+    "learning_rate": 0.2,
+    "num_leaves": 31
+  },
+  "darth": {
+    "loss": "L2 on current recall",
+    "n_estimators": 100,
+    "learning_rate": 0.1,
+    "num_leaves": 31,
+    "mode_A_delta": 200,
+    "ipi": 1532.7012393336042,
+    "mpi": 306.54024786672085
+  },
+  "annie_graph": {
+    "h": 4,
+    "s": 200
+  },
+  "note": "D1 == D2 for DARTH because DARTH's 11 features are a subset of ANNiE's basic block after de-duplication."
+}
