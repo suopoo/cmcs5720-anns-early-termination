@@ -1,0 +1,33 @@
+﻿feature_name,source_paper,category,definition,dimension,computation_stage,required_state,extraction_cost,implementation_location
+F0_query,LAET,basic,raw query vector,960,at checkpoint,query,O(1),features.laet_tail
+d_start,LAET,distance,distance of entry/first NN,1,at checkpoint,result heap,O(k),features.laet_tail
+d_1st,LAET,distance,closest result distance,1,at checkpoint,result heap,O(k),features.laet_tail
+d_10th,LAET,distance,10th closest result distance,1,at checkpoint,result heap,O(k),features.laet_tail
+d_1st/d_start,LAET,distance,ratio,1,at checkpoint,result heap,O(1),features.laet_tail
+d_10th/d_start,LAET,distance,ratio,1,at checkpoint,result heap,O(1),features.laet_tail
+step,DARTH,runtime,step,1,at prediction,search state,O(k),features.darth_vec
+ndc,DARTH,runtime,ndc,1,at prediction,search state,O(k),features.darth_vec
+inserts,DARTH,runtime,inserts,1,at prediction,search state,O(k),features.darth_vec
+d_first,DARTH,runtime,d_first,1,at prediction,search state,O(k),features.darth_vec
+d_closest,DARTH,runtime,d_closest,1,at prediction,search state,O(k),features.darth_vec
+d_furthest,DARTH,runtime,d_furthest,1,at prediction,search state,O(k),features.darth_vec
+avg,DARTH,runtime,avg,1,at prediction,search state,O(k),features.darth_vec
+var,DARTH,runtime,var,1,at prediction,search state,O(k),features.darth_vec
+median,DARTH,runtime,median,1,at prediction,search state,O(k),features.darth_vec
+p25,DARTH,runtime,p25,1,at prediction,search state,O(k),features.darth_vec
+p75,DARTH,runtime,p75,1,at prediction,search state,O(k),features.darth_vec
+ndc,ANNiE,runtime,ndc,1,at homing transition,search state,O(k),features.annie_basic
+step,ANNiE,runtime,step,1,at homing transition,search state,O(k),features.annie_basic
+inserts,ANNiE,runtime,inserts,1,at homing transition,search state,O(k),features.annie_basic
+d_first,ANNiE,runtime,d_first,1,at homing transition,search state,O(k),features.annie_basic
+d_closest,ANNiE,runtime,d_closest,1,at homing transition,search state,O(k),features.annie_basic
+d_furthest,ANNiE,runtime,d_furthest,1,at homing transition,search state,O(k),features.annie_basic
+avg,ANNiE,runtime,avg,1,at homing transition,search state,O(k),features.annie_basic
+var,ANNiE,runtime,var,1,at homing transition,search state,O(k),features.annie_basic
+median,ANNiE,runtime,median,1,at homing transition,search state,O(k),features.annie_basic
+p25,ANNiE,runtime,p25,1,at homing transition,search state,O(k),features.annie_basic
+p75,ANNiE,runtime,p75,1,at homing transition,search state,O(k),features.annie_basic
+recall_target,ANNiE,runtime,recall_target,1,at homing transition,search state,O(k),features.annie_basic
+avg_clustering,ANNiE,graph,mean local clustering coefficient,1,at checkpoint,local subgraph,O(s*d),features.annie_graph
+bsf_clustering,ANNiE,graph,per-BSF-node clustering coefficient,10,at checkpoint,local subgraph,O(s*d),features.annie_graph
+h_hop_reachability,ANNiE,graph,newly reachable nodes per hop,4,at checkpoint,local subgraph,O(h*s^2/64),features.annie_graph

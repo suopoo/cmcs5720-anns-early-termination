@@ -1,6 +1,6 @@
 # --- large / generated artifacts (never commit) ---
-data/
-cache/
+/data/
+/cache/
 .venv/
 venv/
 __pycache__/
